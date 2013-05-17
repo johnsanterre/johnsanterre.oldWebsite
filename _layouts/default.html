@@ -1,47 +1,61 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>John Santerre</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="/css/web_cur.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body>
+<div id="logo" class="container">
+	<h1><a href="#">John Santerre</a></h1>
+</div>
+<div id="menu-wrapper">
+	<div id="menu" class="container">
+		<ul>
+			<li class="current_page_item"><a href="#">Homepage</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Photos</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Links</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</div>
+</div>
+<div id="page" class="container">
+	<div id="box1">
+		<h2 class="title"><a href="#">Welcome to Doubtless</a></h2>
+		{{ content }}
+		<div style="clear: both;">&nbsp;</div>
+			
+	</div>
+	<div id="box2">
+			<h2>Research History</h2>
+		<ul class="style1">
+			<li class="first"><a href="#">University of Chicago  (current)</a></li>
+			<li><a href="#">Carnegie Mellon University  (2009-2011)</a></li>
+			<li><a href="#">Researcher United Therapeutics  (2009-2010)</a></li>
+			<h2>Former Life</h2>
+		<ul class="style1">
+			<li class="first"><a href="#">Photojournalist</a></li>
+			<li><a href="#">Printer</a></li>
+			<li><a href="#">Video Editor</a></li>
+			<li><a href="http://www.jwsweddings.com">Wedding Photographer</a></li>
+		</ul>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+		</ul>
+	</div>
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
-    </head>
-
-    <body>
-
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-     
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  John Santerre<br />
-                  U Chicago CS Graduate Student<br />
-                  john *.* santerre at gmail
-                </p>
-              </div>
-              <div class="contact">
-                <p>
+</div>
+<div id="footer" class="container">
 		          <a href="http:www.johnsanterre.com/">http:www.johnsanterre.com</a><br />
                   <a href="http://github.com/johnsanterre/">github.com/johnsanterre</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
-
-    </body>
+</div>
+</body>
 </html>
