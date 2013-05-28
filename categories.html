@@ -9,7 +9,7 @@ title: Categories
 	<ul class="postList">	
 	{% for posts in category %}
       {% for post in posts %}
-	<a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }} <span>{{ post.date | date: '%m.%d.%y' }}</span></a>						
+		<a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }} ,   </a>						
 	{% endfor %}{% endfor %}
 	</ul>
 </div>				
