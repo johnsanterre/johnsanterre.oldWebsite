@@ -1,0 +1,46 @@
+---
+layout: post
+title: Feature Detection for Speech M.Stoehr
+categories: [Mark Stoehr, Research, Talks, Imaging, Speech]
+---
+<br>
+<b>M.S. Paper Title: Binary-Feature Detection Cascades for Speech
+Recognition</b><br>
+Abstract:
+Speech recognition is generally performed with Hidden Markov models,
+which require a language model and an enormous training set to obtain
+good performance. Moreover, HMMs poorly model phonetic trajectories
+and detail. Template-based approaches are a promising alternative to
+HMMs that require less training data, but can potentially better model
+phonetic dynamics. In this work, we investigate the performance of a
+template-based system at detecting short sequences of phones embedded
+in continuous speech.
+<br>
+
+
+Template-based systems compare reference templates of the phone
+sequence directly against the speech signal. A detection is declared
+whenever a template closely matches a segment of the signal. We show
+how template-matching can be performed using a cascade of standard
+classification algorithms. The cascade has three steps: a
+likelihood-ratio test that identifies a set of potential matches, a
+clustering algorithm to reduces this set of matches, then an SVM
+classifier that discards low-quality matches. Training the likelihood
+ratio detector involves estimating a mixture model over segmented
+examples of the target sequence, while training the SVM detector
+requires speech that is known to not contain the target sequence but
+is otherwise unlabeled.
+
+We test this architecture on a variety of different feature sets
+including raw-spectral data, binary edge features, and data-adapted
+patch-based features. The binary edge features are computed on the
+speech spectrogram producing a binary time-frequency representation.
+The patch-based features are constructed using mixture models over
+patches of the edge-based binary time-frequency representation. Other
+feature sets are considered and we compare the detector performance
+obtained for each choice of features
+
+Our results indicate that a cascaded detector combining a likelihood
+ratio test and an SVM classifier achieves better performance than
+either detector alone. We also find that binary edge features and
+patch features improve robustness to speaker variation and noise.

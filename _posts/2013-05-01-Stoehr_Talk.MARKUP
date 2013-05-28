@@ -1,0 +1,16 @@
+---
+layout: post
+title: Learning From Data
+categories: [Mark Stoehr, Research, Talks, Graduate Student Talks, Machine Learning Philosophy]
+---
+<br>
+<b>Learning From Data</b>
+<br>
+Bayesian's have long been the best proponents of thinking philosophically
+about their statistical inference methods, and Bayesian thinking has
+greatly influenced how computer scientists usually think about
+probability: particularly in the context of learning.  Mark is going to
+talk about frequentist inference--its connection to learning theory, and
+illustrate some concepts with the historical example of the Copernican
+theory as well as discriminative structured learning in speech recognition.
+<br><br>
