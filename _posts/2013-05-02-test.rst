@@ -1,0 +1,20 @@
+---
+layout: post
+title: Feature Detection for Speech M.Stoehr
+categories: [Mark Stoehr, Research, Talks, Imaging, Speech]
+---
+
+First para.
+
+This is some code::
+
+    Here is code.
+
+This is *some* formatting **tests**. Let's define :math:`x \in \mathbb{R}`.
+
+.. math:: 
+	
+	\sum_{i=1}^N x^n
+
+Here's some nicer code.
+
