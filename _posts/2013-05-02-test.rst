@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Feature Detection for Speech M.Stoehr
-categories: [Mark Stoehr, Research, Talks, Imaging, Speech]
+title: Feature Detection for Speech
+categories: [Research, Talks, Imaging, Speech]
+post_author: Ankan Saha
+
 ---
 
 First para.
@@ -13,8 +15,8 @@ This is some code::
 This is *some* formatting **tests**. Let's define :math:`x \in \mathbb{R}`.
 
 .. math:: 
-	
-	\sum_{i=1}^N x^n
+
+    \sum_{i=1}^N x^n
 
 Here's some nicer code.
 

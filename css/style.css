@@ -92,6 +92,11 @@ ul {
 	background: #ffffff;
 	border-bottom: solid 1px #c0c0c0;
 }
+#boxPost {
+	width: 800px;
+	overflow: hidden;
+	margin: 0px 0 24px 0;
+}
 
 #box1 {
 	width: 500px;
@@ -118,6 +123,14 @@ ul {
 	background: #ffffff;
 	border-bottom: solid 1px #c0c0c0;
 }
+#contentPost {
+	width: 800px;
+	margin: 0px 28px 0 312px;
+	padding: 28px;
+	background: #ffffff;
+	border-bottom: solid 1px #c0c0c0;
+}
+
 
 #copyright {
 	margin: 28px 0 64px 0;
