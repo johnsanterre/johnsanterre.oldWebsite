@@ -16,10 +16,12 @@
 		    {% if category contains 'talks' %}
 		        {% for posts in category %}
 		              {% for post in posts %}
-		                <li>
-						 <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.post_author }}
-						</li>
-	                    {% endfor %}
+		                    {% if forloop.index < 5 %}
+		                    <li>
+    						 <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.post_author }}
+    						</li>
+						    {% endif %}
+	                  {% endfor %}
 	            {% endfor %}
             {% endif %}
 	{% endfor %}

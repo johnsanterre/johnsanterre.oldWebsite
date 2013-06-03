@@ -1,0 +1,14 @@
+---
+layout: post
+title: CAD-trained Computer Vision using generative models
+categories: [Research, talks]
+post_author: Gustav Larsson
+date_given: 20130101
+---
+<br>
+<b>CAD-trained Computer Vision using generative models</b>
+<br>
+The talk will first offer a gentle introduction to the field of Computer Vision, describing a very simple object classifier from start to finish. During this section I will also discuss the difference between generative and discriminative machine learning.
+
+For the rest of the talk I will describe my own research, which tries to use 3D CAD models of for instance cars, to train an object detection algorithm. We do this using generative models, heavily relying on Bernoulli mixture models. These models are simple, fast to train and give interpretable models. However, there are still plenty of challenging obstacles and open problems, that I look forward to discussing as part of the talk.
+<br><br>
